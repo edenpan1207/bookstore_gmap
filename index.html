@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <style>
+    <link rel="stylesheet" href="css/style.css">
+  <!--  <style>
     html,
     body {
         font-family: Arial, sans-serif;
@@ -15,15 +17,24 @@
     #map {
         height: 100%;
     }
-    </style>
+    </style>-->
 </head>
 
 <body>
-    <div id="map"></div>
-
-    <script src="js/all.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC84GxNm45SR3A7LaitDn-IA9jdmE1dgAs&callback=initMap" async defer></script>
-    
-</body>
+    <div class="wrap">
+      <div class="header">
+      <img src="image/book.png" alt="">
+        全台 獨立書店 地圖
+        <div class="box">
+              <p>點選地標即可顯示更詳細的書店資訊喔！</p>
+          </div>
+      </div>
+      <div id="map"></div>
+    </div>
+<script src="js/all.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC84GxNm45SR3A7LaitDn-IA9jdmE1dgAs&callback=initMap" async defer></script>
+<script src="js/jquery-3.1.0.min.js"></script>
+ 
+    </body>
 
 </html>
