@@ -2,39 +2,39 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-  <!--  <style>
-    html,
-    body {
-        font-family: Arial, sans-serif;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
+
+<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全台獨立書店地圖</title>
+    <link rel="shortcut icon" href="image/1482249026_Streamline-52.ico">
+    <meta name='description' content='independent book store' />
+    <meta property="og:title" content="獨立書店" />
+    <meta property="og:description" content="independent book store">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.hexschool.com/" />
+    <meta property="og:image" content="image/book.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+   
     
-    #map {
-        height: 100%;
-    }
-    </style>-->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div class="wrap">
-      <div class="header">
+        <div class="header">
+            <h1 class="marker">
       <img src="image/book.png" alt="">
         全台 獨立書店 地圖
-        <div class="box">
-              <p>點選地標即可顯示更詳細的書店資訊喔！</p>
-          </div>
-      </div>
-      <div id="map"></div>
+        </h1>
+            <div class="box">
+                <p>點選地標即可顯示更詳細的書店資訊喔！</p>
+            </div>
+        </div>
+        <div id="map"></div>
     </div>
-<script src="js/all.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC84GxNm45SR3A7LaitDn-IA9jdmE1dgAs&callback=initMap" async defer></script>
-<script src="js/jquery-3.1.0.min.js"></script>
- 
-    </body>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC84GxNm45SR3A7LaitDn-IA9jdmE1dgAs&callback=initMap" async defer></script>
+</body>
 
 </html>

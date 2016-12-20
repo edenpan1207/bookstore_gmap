@@ -57,69 +57,68 @@ img {
 
 
 /* get start */
-
+/* html body wrap and map have to set height */
 html,
-      body {
-      	font-family: Microsoft JhengHei;
-        height: 100%;
-      }
-      .wrap {
-        height: 100%;
-        position: relative;
-      }
-      .header {
-      	height: 12%;
-      	background: rgba(48, 46, 46, 0.8);
-      	color: white;
-        font-size: 28px;
-        font-weight: bold;
-        text-align: center;
-        padding-top: 5px;
-      }
-      
-      .header img {
-      	width: 60px;
-      	height: 60px;
-      	background: white;
-      	border: 1px solid white;
-      	border-radius: 100%;
-      	vertical-align: middle;
-      	margin-right: 10px;
-      }
-      .box {
-      	width: 200px;
-      	height: 70px;
-      	background: #DBCDCD;
-      	border: 3px solid gray;
-      	border-radius: 10px;
-      	position: absolute;
-      	right: 20px;
-      	top: 13%;
-      	z-index: 10;
-      	padding: 10px;
-      }
-      .box p {
-      	font-size: 16px;
-      	line-height: 1.2em;
-      	color: #781A1A;
-      }
-      #map {
-      	height: 85%;
-      }
-      .setContent {
-      	font-family: Microsoft JhengHei;
-      	line-height: 1.5em;
-      	border: 2px solid gray;
-      	border-radius: 10px;
-      	padding: 10px;
-      }
+body {
+    font-family: Microsoft JhengHei;
+    height: 100%;
+}
+.wrap {
+    height: 100%;
+    position: relative;
+}
+.header {
+    background: rgba(48, 46, 46, 0.8);
+}
+.marker {
+	color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.8% 0;
+}
+.marker img {
+    width: 60px;
+    height: 60px;
+    background: white;
+    border: 1px solid white;
+    border-radius: 100%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.box {
+	width: 20%;
+    padding: 10px 20px;
+    background: #DE2453;
+    border: 3px solid #AB2044;
+    border-radius: 10px;
+    position: absolute;
+    right: 5px;
+    top: 85px;
+    z-index: 10;
+}
+.box p {
+    font-size: 18px;
+    line-height: 1.2em;
+    color: white;
+}
+#map {
+    height: 93%;
+}
+.setContent {
+    font-family: Microsoft JhengHei, arial;
+    line-height: 1.5em;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
 
-      .setContent h2 {
-      	font-size: 24px;
-      	margin: 10px 0;
-      }
-      .setContent img {
-      	width: 15%;
-      	height: 15%;
-      }
-      
+/* all.js setContent set style */
+.setContent h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+.setContent img {
+    width: 15%;
+    height: 15%;
+}
