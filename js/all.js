@@ -59,7 +59,7 @@ function initMap() {
         var image = locations[i].representImage;
         var openTime = locations[i].openTime;
         var phone = locations[i].phone;
-        var web = locations[i].website;
+        var website = locations[i].website;
 
         var marker = new google.maps.Marker({
             map: map,
@@ -69,7 +69,7 @@ function initMap() {
             image: image,
             openTime: openTime,
             phone: phone,
-            web: web,
+            website: website,
             animation: google.maps.Animation.DROP,
             id: i
         });
@@ -94,7 +94,7 @@ function popupInfoWindow(marker, infowindow) {
             '<p>' + '地址：' + marker.address + '</p>' +
             '<p>' + '營業時間：' + marker.openTime + '</p>' +
             '<p>' + '聯絡方式：' + marker.phone + '</p>' +
-            '<a href>' + marker.web + '</a>' +
+            '<a href = >' + marker.website + '</a>' +
             '</div>');
         infowindow.open(map, marker);
         // close infowindow
